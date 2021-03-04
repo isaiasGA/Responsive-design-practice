@@ -39,6 +39,7 @@ h1 {
 
 h2 {
   font-size: 27rem;
+  color: #053E76;
 }
 
 h3 {
@@ -55,7 +56,7 @@ h4 {
 
 p {
   font-size: 13rem;
-  color: darkgray;
+  color: #848484;
   font-weight: 400;
 }
 
@@ -204,7 +205,7 @@ section {
   background-color: #fff;
 }
 
-.arrow {
+.arrow, .download-logo {
   color: #153B7A;
   padding-left: 1em;
 }
@@ -213,13 +214,17 @@ section {
 
 .content-3 {
   display: flex;
-  justify-content: space-evenly;
 }
 
 .cont3-box {
   text-align: center;
   width: 22%;
   padding: 4em 0;
+  margin-right: 3em;
+}
+
+.cont-box1 {
+  margin-left: 13em;
 }
 
 .logo-container {
@@ -248,6 +253,7 @@ section {
 
 .section-4 {
   background-color: #F4F4F4;
+  padding: 2em 0;
 }
 
 .section4-header {
@@ -259,17 +265,48 @@ section {
 .section4-p {
   text-align: center;
   padding: 0 11em;
-  margin-top: 1em;
-  color: darkgray;
+  margin-top: 2em;
 }
 
 .img-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   text-align: center;
-  padding: 2em 0;
+  padding-top: 2em;
+  padding-bottom: 3em;
 }
 
 .block-content {
-  width: 16.6%;;
+  width: 16.6%;
+  margin-right: 1.5em;
+}
+
+/* content 5*/
+
+.content-5 {
+  display: flex;
+  justify-content: center;
+  padding: 3em 0px;
+}
+
+.map-img {
+  width: 29%;
+}
+
+.map-content {
+  width: 39%;
+  padding-left: 2em;
+}
+
+.cont5-h {
+  margin-bottom: 1em;
+}
+
+.map-links {
+  display: flex;
+  margin-top: 3em;
+}
+
+.link-logo1 {
+  margin-right: 6em;
 }
