@@ -41,6 +41,13 @@ h2 {
   font-size: 27rem;
 }
 
+h3 {
+  color: #153B7A;
+  font-weight: 500;
+  font-size: 19rem;
+  padding-bottom: .4em;
+}
+
 h4 {
   padding: 1em 3em;
   font-size: 13rem;
@@ -48,6 +55,8 @@ h4 {
 
 p {
   font-size: 13rem;
+  color: darkgray;
+  font-weight: 400;
 }
 
 span {
@@ -184,6 +193,10 @@ section {
   font-weight: 400;
 }
 
+.content2-p {
+  color: #153B7A;
+}
+
 .content2-btn {
   color: gray;
   padding: 0em 2em;
@@ -196,4 +209,67 @@ section {
   padding-left: 1em;
 }
 
+/*Content 3*/
 
+.content-3 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cont3-box {
+  text-align: center;
+  width: 22%;
+  padding: 4em 0;
+}
+
+.logo-container {
+  width: 23%;
+  padding-top: 0.5em;
+  margin-left: 3.5em;
+  font-size: 2em;
+  margin-bottom: .5em;
+}
+
+.logo-wand {
+  background-color: #153B7A;
+  color: #fff;
+}
+
+.logo-desk, .logo-code {
+  background-color: #CCE6E6;
+  color: #053E76;
+}
+
+/*Content 4*/
+
+.img-block {
+  width: 22%;
+}
+
+.section-4 {
+  background-color: #F4F4F4;
+}
+
+.section4-header {
+  text-align: center;
+  color: #153B7A;
+  padding-top: 1em;
+}
+
+.section4-p {
+  text-align: center;
+  padding: 0 11em;
+  margin-top: 1em;
+  color: darkgray;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 2em 0;
+}
+
+.block-content {
+  width: 16.6%;;
+}
