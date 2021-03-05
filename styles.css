@@ -145,10 +145,6 @@ nav {
 
 /*Section 1*/
 
-section {
-  outline: 1px solid red;
-}
-
 .content-1 {
   height: 53vh;
   background-image: url('https://images.unsplash.com/photo-1510554310709-f60fc3cf34e6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1267&q=80');
@@ -255,6 +251,7 @@ section {
 .section-4 {
   background-color: #F4F4F4;
   padding: 2em 0;
+  border-top: 1px solid #DCDCDC;
 }
 
 .section4-header {
@@ -288,6 +285,8 @@ section {
   display: flex;
   justify-content: center;
   padding: 3em 0px;
+  border-top: 1px solid #DCDCDC;
+  border-bottom: 1px solid #DCDCDC;
 }
 
 .map-img {
@@ -317,6 +316,7 @@ section {
 .content-6 {
   display: flex;
   justify-content: center;
+  margin-top: 2em;
 }
 
 .why-paramo {
@@ -461,8 +461,7 @@ h5 {
 .footer-one {
   display: flex;
   justify-content: space-between;
-  outline: 1px solid green;
-  padding: 4em 15em;
+  padding: 4em 12.5em;
 }
 
 .enterprise {
@@ -471,10 +470,11 @@ h5 {
 
 .tag-grid {
   display: grid;
-  grid-template-columns: repeat(11, .8vw);
+  grid-template-columns: repeat(11, 1vw);
   grid-template-rows: repeat(4 ,2.3vh);
-  grid-column-gap: 1%;
-  grid-row-gap: 2%;
+  grid-column-gap: 2%;
+  grid-row-gap: 8%;
+
 }
 
 .tag {
@@ -618,6 +618,49 @@ h5 {
     font-size: .7em;
   }
 
+  /*Footer 2*/
+
+  .footer-two {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #848484;
+    margin: 0 18%;
+    padding-top: 1em;
+  }
+
+  .paramo-logo-container {
+    background-color: #093C71;
+    color: #fff;
+    font-size: 4em;
+    width: 13%;
+    text-align: center;
+    height: 5%;
+    padding: 0.2em 0.3em;
+    position: relative;
+    bottom: 1em;
+  }
+
+  .social-net {
+    display: flex;
+    justify-content: space-between;
+    width: 28%;
+  }
+
+  .social-net-p {
+    margin-right: 1em;
+  }
+
+  .fa-linkedin {
+    color: #fff;
+  }
+
+  .fa-product-hunt {
+    padding-bottom: 0;
+  }
+
+  .fa-facebook-f, .fa-skype, .fa-google-plus-g, .fa-twitter {
+    color: #848484;
+  }
 
 
  
