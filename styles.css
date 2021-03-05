@@ -58,6 +58,7 @@ p {
   font-size: 13rem;
   color: #848484;
   font-weight: 400;
+  line-height: 20px;
 }
 
 span {
@@ -310,3 +311,313 @@ section {
 .link-logo1 {
   margin-right: 6em;
 }
+
+/*Content 6*/
+
+.content-6 {
+  display: flex;
+  justify-content: center;
+}
+
+.why-paramo {
+  width: 25%;
+}
+
+.content6-h {
+  margin-left: 2em;
+}
+
+.icons-container {
+  margin: 2em 3em; 
+  margin-top: 2em;
+  flex-direction: column;
+  margin-left: 7em;
+}
+
+.icon-cont {
+  display: flex;
+  padding: .6em;
+  color:  #848484;
+}
+
+.icon-cont:hover {
+  background-color: #CEE6E6;
+  color: #053E76;
+  cursor: pointer;
+  
+}
+
+.sect6-icons {
+  margin-right: 1em;
+}
+
+.why-container {
+  display: flex;
+  width: 43%;
+  padding-left: 1em;
+  height: -9%;
+  padding-top: 5em;
+  padding-bottom: -3em;
+  padding-right: 3%;
+}
+
+.cat-img {
+  width: 37%;
+  height: 85%;
+  border-left: 1px solid gray;
+  padding-left: 1em;
+}
+
+.sect6-txt {
+  margin-left: 1em;
+}
+
+.testimonials-container {
+  width: 20%;
+}
+
+.testimonial-txt {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 7px solid #CFE5EA;
+}
+
+
+.testimonail-h {
+  color: #153B7A;
+  font-weight: 500;
+  font-size: 19rem;
+  padding-bottom: .4em;
+}
+
+.testimonial-p {
+  font-style: italic;
+}
+
+.testimonial-profile {
+  display: flex;
+  border-top: 1px solid;
+  margin-top: 2em;
+  padding-top: 3em;
+}
+.portrait-img {
+  width: 14%;
+  margin: 0 1.5em;
+}
+
+.profile-info {
+ text-align: center;
+}
+
+h5 {
+  color: #153B7A;
+}
+
+/*Content 7*/
+
+.content-7 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #CEE6E6;
+}
+
+.fa-phone-alt {
+  font-size: 3.5em;
+  margin-right: 1em;
+  padding-top: 0.5em;
+  color: #053E76;
+}
+
+.section7-h {
+  font-weight: 700;
+  color: #1E6D80;
+}
+
+.section7-p {
+  width: 78%;
+  color: #1E6D80;
+}
+
+.section7-img {
+  width: 8%;
+}
+
+/*Section 8*/
+
+.content8-title {
+  color:#fff;
+  margin-bottom: 0.6em;
+}
+
+  /*Tags*/
+
+.content-8 {
+  background-color: #434343;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-one {
+  display: flex;
+  justify-content: space-between;
+  outline: 1px solid green;
+  padding: 4em 15em;
+}
+
+.enterprise {
+  width: 27%;
+}
+
+.tag-grid {
+  display: grid;
+  grid-template-columns: repeat(11, .8vw);
+  grid-template-rows: repeat(4 ,2.3vh);
+  grid-column-gap: 1%;
+  grid-row-gap: 2%;
+}
+
+.tag {
+  border: 1px solid #848484;
+  text-align: center;
+  font-size: .6em;
+  padding-top: .3em;
+  color: #848484;
+
+  transition-property: inherit;
+  transition-timing-function: cubic-bezier(0.65, 0.32, 1, 1);
+}
+
+.tag:hover {
+  background-color: #CEE6E5;
+}
+
+
+.design-tag {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.dev-tag {
+  grid-column-start: 4;
+  grid-column-end: 8;
+}
+
+.html-tag {
+  grid-column-start: 8;
+  grid-column-end: 11;
+}
+
+.font-tag {
+  grid-column-start: 1;
+  grid-column-end: 5
+}
+
+.wordp-tag {
+  grid-column-start: 5;
+  grid-column-end: 9;
+}
+
+.art-tag {
+  grid-column-start: 9;
+  grid-column-end: 11;
+}
+
+.blog-tag {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.innov-tag {
+  grid-column-start: 3;
+  grid-column-end: 7;
+}
+
+.resp-tag {
+  grid-column-start: 7;
+  grid-column-end: 10;
+}
+
+.css-tag {
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.them-tag {
+  grid-column-start: 4;
+  grid-column-end: 8;
+}
+
+.ab-tag {
+  grid-column-start: 8;
+  grid-column-end: 11;
+}
+
+
+  /*IMG Gallery*/
+
+.gallery {
+  display: grid;
+  grid-template-areas: 
+  "img1 img2 img3"
+  "img4 img5 img6"
+  ;
+  grid-template-columns: repeat(3, 2.5vw);
+  grid-template-rows: repeat(2, 4vh);
+  grid-column-gap: 0.3em;
+  grid-row-gap: .8em;
+}
+
+.img-gall {
+  width: 90%;
+}
+
+.first-img {
+  grid-area: img1;
+}
+
+.second-img {
+  grid-area: img2;
+}
+
+.third-img {
+  grid-area: img3;
+}
+
+.fourth-img {
+  grid-area: img4;
+}
+
+.fifth-img {
+  grid-area: img5;
+}
+.sixth-img {
+  grid-area: img6;
+}
+
+  /*Contacts*/
+
+ 
+
+  .contact {
+    margin-bottom: .6em;
+  }
+
+  .contact-link {
+    color: #148C7C;
+    font-weight: 500;
+  }
+
+  .map {
+    margin-top: 1em;;
+  }
+
+  .fa-map-marker-alt {
+    color: #fff;
+    margin-left: .5em;
+    font-size: .7em;
+  }
+
+
+
+ 
